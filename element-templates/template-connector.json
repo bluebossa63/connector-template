@@ -1,8 +1,8 @@
 {
   "$schema": "https://unpkg.com/@camunda/zeebe-element-templates-json-schema/resources/schema.json",
-  "name": "Template: Some Function",
-  "id": "io.camunda.connector.Template.v1",
-  "description": "Describe this connector",
+  "name": "TestConnector",
+  "id": "io.camunda.connector.TestConnector.v1",
+  "description": "Smoke test connector",
   "version": 1,
   "documentationRef": "https://docs.camunda.io/docs/components/modeler/web-modeler/connectors/available-connectors/template/",
   "icon": {
@@ -39,7 +39,7 @@
   "properties": [
     {
       "type": "Hidden",
-      "value": "io.camunda:template:1",
+      "value": "io.camunda:testconnector:1",
       "binding": {
         "type": "zeebe:taskDefinition:type"
       }
